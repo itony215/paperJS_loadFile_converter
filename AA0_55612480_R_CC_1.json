@@ -1,0 +1,50 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "width": 2560,
+      "height": 3328,
+      "file_name": "AA0_55612480_R_CC_1"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 235,
+      "image_id": 1,
+      "category_ids": [
+        2,
+        20,
+        29
+      ],
+      "circle": [
+        1347,
+        1577,
+        453
+      ],
+      "bbox": [
+        893,
+        1123,
+        908,
+        908
+      ],
+      "malignant": 0
+    }
+  ],
+  "categories": [
+    {
+      "supercategory": "abnormal",
+      "id": 2,
+      "name": "masses"
+    },
+    {
+      "supercategory": "masses",
+      "id": 20,
+      "name": "round"
+    },
+    {
+      "supercategory": "masses",
+      "id": 29,
+      "name": "low"
+    }
+  ]
+}

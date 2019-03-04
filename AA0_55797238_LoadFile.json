@@ -1,0 +1,1756 @@
+{
+  "user_name": "",
+  "file_name": "AA0_55797238",
+  "study": {
+    "patient_id": "a1024",
+    "patient_age": "48",
+    "study_id": "40163",
+    "exam_date": "20120117",
+    "accession_number": "55797238",
+    "image_pixel_spacing": 0.07,
+    "assessment": "5",
+    "composition": "C",
+    "rcc": {
+      "anno_file_name": "AA0_55797238_R_CC_1.json",
+      "major_risk": "calcifications(skin,coarse(popcorn-like),grouped)",
+      "malignant": 0.1,
+      "abn_num": 1
+    },
+    "lcc": {
+      "anno_file_name": "AA0_55797238_L_CC_1.json",
+      "major_risk": "asymmetries(global)",
+      "malignant": 1,
+      "abn_num": 3
+    },
+    "rmlo": {
+      "anno_file_name": "AA0_55797238_R_MLO_1.json",
+      "major_risk": "masses(irregular,low)",
+      "malignant": 0.5,
+      "abn_num": 1
+    },
+    "lmlo": {
+      "anno_file_name": "AA0_55797238_L_MLO_1.json",
+      "major_risk": "masses(irregular,low)",
+      "malignant": 1,
+      "abn_num": 3
+    }
+  },
+  "annotation": [
+    {
+      "view": "AA0_55797238_R_CC_1",
+      "data": {
+        "images": [
+          {
+            "id": 1,
+            "width": 2560,
+            "height": 3328,
+            "file_name": "AA0_55797238_R_CC_1"
+          }
+        ],
+        "annotations": [
+          {
+            "id": 36,
+            "image_id": 1,
+            "category_ids": [
+              3,
+              31,
+              33,
+              47
+            ],
+            "circle": [
+              1830,
+              1660,
+              238
+            ],
+            "bbox": [
+              1591,
+              1421,
+              478,
+              478
+            ],
+            "malignant": 0.1
+          }
+        ],
+        "categories": [
+          {
+            "supercategory": "abnormal",
+            "id": 3,
+            "name": "calcifications"
+          },
+          {
+            "supercategory": "calcifications",
+            "id": 31,
+            "name": "skin"
+          },
+          {
+            "supercategory": "calcifications",
+            "id": 33,
+            "name": "coarse(popcorn-like)"
+          },
+          {
+            "supercategory": "calcifications",
+            "id": 47,
+            "name": "grouped"
+          }
+        ],
+        "annotation": [
+          [
+            "Layer",
+            {
+              "name": "masses",
+              "applyMatrix": true
+            }
+          ],
+          [
+            "Layer",
+            {
+              "name": "calcifications",
+              "applyMatrix": true,
+              "children": [
+                [
+                  "Group",
+                  {
+                    "applyMatrix": true,
+                    "children": [
+                      [
+                        "Path",
+                        {
+                          "applyMatrix": true,
+                          "data": {
+                            "countable": true
+                          },
+                          "segments": [
+                            [
+                              [
+                                1592,
+                                1660
+                              ],
+                              [
+                                0,
+                                131.495
+                              ],
+                              [
+                                0,
+                                -131.495
+                              ]
+                            ],
+                            [
+                              [
+                                1830,
+                                1422
+                              ],
+                              [
+                                -131.495,
+                                0
+                              ],
+                              [
+                                131.495,
+                                0
+                              ]
+                            ],
+                            [
+                              [
+                                2068,
+                                1660
+                              ],
+                              [
+                                0,
+                                -131.495
+                              ],
+                              [
+                                0,
+                                131.495
+                              ]
+                            ],
+                            [
+                              [
+                                1830,
+                                1898
+                              ],
+                              [
+                                131.495,
+                                0
+                              ],
+                              [
+                                -131.495,
+                                0
+                              ]
+                            ]
+                          ],
+                          "closed": true,
+                          "fillColor": [
+                            0,
+                            0,
+                            0,
+                            0.001
+                          ],
+                          "strokeColor": [
+                            "hsl",
+                            300,
+                            1,
+                            0.876,
+                            1
+                          ],
+                          "strokeWidth": 26.83796,
+                          "dashArray": []
+                        }
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            }
+          ],
+          [
+            "Layer",
+            {
+              "name": "architectural distortion",
+              "applyMatrix": true
+            }
+          ],
+          [
+            "Layer",
+            {
+              "name": "asymmetries",
+              "applyMatrix": true
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "view": "AA0_55797238_L_CC_1",
+      "data": {
+        "images": [
+          {
+            "id": 2,
+            "width": 2560,
+            "height": 3328,
+            "file_name": "AA0_55797238_L_CC_1"
+          }
+        ],
+        "annotations": [
+          {
+            "id": 42,
+            "image_id": 2,
+            "category_ids": [
+              3,
+              47
+            ],
+            "segmentation": [
+              636,
+              1800,
+              643,
+              1890,
+              657,
+              1946,
+              664,
+              2009,
+              678,
+              2065,
+              692,
+              2127,
+              713,
+              2190,
+              748,
+              2253,
+              790,
+              2316,
+              853,
+              2386,
+              929,
+              2448,
+              971,
+              2476,
+              1006,
+              2497,
+              1076,
+              2504,
+              1118,
+              2504,
+              1195,
+              2497,
+              1306,
+              2455,
+              1432,
+              2407,
+              1557,
+              2344,
+              1669,
+              2295,
+              1725,
+              2260,
+              1739,
+              2218,
+              1739,
+              2155,
+              1739,
+              2072,
+              1669,
+              1869,
+              1599,
+              1744,
+              1516,
+              1632,
+              1418,
+              1562,
+              1348,
+              1520,
+              1264,
+              1500,
+              1188,
+              1486,
+              1090,
+              1479,
+              978,
+              1479,
+              888,
+              1479,
+              818,
+              1479
+            ],
+            "bbox": [
+              636,
+              1479,
+              1103,
+              1026
+            ],
+            "malignant": 0.1
+          },
+          {
+            "id": 127,
+            "image_id": 2,
+            "category_ids": [
+              5,
+              51
+            ],
+            "circle": [
+              308,
+              583,
+              301
+            ],
+            "bbox": [
+              6,
+              282,
+              604,
+              604
+            ],
+            "malignant": 1
+          },
+          {
+            "id": 153,
+            "image_id": 2,
+            "category_ids": [
+              4
+            ],
+            "circle": [
+              873,
+              310,
+              180
+            ],
+            "bbox": [
+              693,
+              130,
+              361,
+              361
+            ],
+            "malignant": 0.1
+          }
+        ],
+        "categories": [
+          {
+            "supercategory": "abnormal",
+            "id": 3,
+            "name": "calcifications"
+          },
+          {
+            "supercategory": "calcifications",
+            "id": 47,
+            "name": "grouped"
+          },
+          {
+            "supercategory": "abnormal",
+            "id": 5,
+            "name": "asymmetries"
+          },
+          {
+            "supercategory": "asymmetries",
+            "id": 51,
+            "name": "global"
+          },
+          {
+            "supercategory": "abnormal",
+            "id": 4,
+            "name": "architectural distortion"
+          }
+        ],
+        "annotation": [
+          [
+            "Layer",
+            {
+              "name": "masses",
+              "applyMatrix": true
+            }
+          ],
+          [
+            "Layer",
+            {
+              "name": "calcifications",
+              "applyMatrix": true,
+              "children": [
+                [
+                  "Group",
+                  {
+                    "applyMatrix": true,
+                    "children": [
+                      [
+                        "Path",
+                        {
+                          "applyMatrix": true,
+                          "data": {
+                            "countable": true
+                          },
+                          "segments": [
+                            [
+                              636,
+                              1800
+                            ],
+                            [
+                              643,
+                              1890
+                            ],
+                            [
+                              657,
+                              1946
+                            ],
+                            [
+                              664,
+                              2009
+                            ],
+                            [
+                              678,
+                              2065
+                            ],
+                            [
+                              692,
+                              2127
+                            ],
+                            [
+                              713,
+                              2190
+                            ],
+                            [
+                              748,
+                              2253
+                            ],
+                            [
+                              790,
+                              2316
+                            ],
+                            [
+                              853,
+                              2386
+                            ],
+                            [
+                              929,
+                              2448
+                            ],
+                            [
+                              971,
+                              2476
+                            ],
+                            [
+                              1006,
+                              2497
+                            ],
+                            [
+                              1076,
+                              2504
+                            ],
+                            [
+                              1118,
+                              2504
+                            ],
+                            [
+                              1195,
+                              2497
+                            ],
+                            [
+                              1306,
+                              2455
+                            ],
+                            [
+                              1432,
+                              2407
+                            ],
+                            [
+                              1557,
+                              2344
+                            ],
+                            [
+                              1669,
+                              2295
+                            ],
+                            [
+                              1725,
+                              2260
+                            ],
+                            [
+                              1739,
+                              2218
+                            ],
+                            [
+                              1739,
+                              2155
+                            ],
+                            [
+                              1739,
+                              2072
+                            ],
+                            [
+                              1669,
+                              1869
+                            ],
+                            [
+                              1599,
+                              1744
+                            ],
+                            [
+                              1516,
+                              1632
+                            ],
+                            [
+                              1418,
+                              1562
+                            ],
+                            [
+                              1348,
+                              1520
+                            ],
+                            [
+                              1264,
+                              1500
+                            ],
+                            [
+                              1188,
+                              1486
+                            ],
+                            [
+                              1090,
+                              1479
+                            ],
+                            [
+                              978,
+                              1479
+                            ],
+                            [
+                              888,
+                              1479
+                            ],
+                            [
+                              818,
+                              1479
+                            ]
+                          ],
+                          "closed": true,
+                          "fillColor": [
+                            0,
+                            0,
+                            0,
+                            0.001
+                          ],
+                          "strokeColor": [
+                            "hsl",
+                            300,
+                            1,
+                            0.876,
+                            1
+                          ],
+                          "strokeWidth": 26.83796,
+                          "dashArray": []
+                        }
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            }
+          ],
+          [
+            "Layer",
+            {
+              "name": "architectural distortion",
+              "applyMatrix": true,
+              "children": [
+                [
+                  "Group",
+                  {
+                    "applyMatrix": true,
+                    "children": [
+                      [
+                        "Path",
+                        {
+                          "applyMatrix": true,
+                          "data": {
+                            "countable": true
+                          },
+                          "segments": [
+                            [
+                              [
+                                693,
+                                310
+                              ],
+                              [
+                                0,
+                                99.45
+                              ],
+                              [
+                                0,
+                                -99.45
+                              ]
+                            ],
+                            [
+                              [
+                                873,
+                                130
+                              ],
+                              [
+                                -99.45,
+                                0
+                              ],
+                              [
+                                99.45,
+                                0
+                              ]
+                            ],
+                            [
+                              [
+                                1053,
+                                310
+                              ],
+                              [
+                                0,
+                                -99.45
+                              ],
+                              [
+                                0,
+                                99.45
+                              ]
+                            ],
+                            [
+                              [
+                                873,
+                                490
+                              ],
+                              [
+                                99.45,
+                                0
+                              ],
+                              [
+                                -99.45,
+                                0
+                              ]
+                            ]
+                          ],
+                          "closed": true,
+                          "fillColor": [
+                            0,
+                            0,
+                            0,
+                            0.001
+                          ],
+                          "strokeColor": [
+                            "hsl",
+                            0,
+                            0,
+                            1,
+                            1
+                          ],
+                          "strokeWidth": 26.83796,
+                          "dashArray": []
+                        }
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            }
+          ],
+          [
+            "Layer",
+            {
+              "name": "asymmetries",
+              "applyMatrix": true,
+              "children": [
+                [
+                  "Group",
+                  {
+                    "applyMatrix": true,
+                    "children": [
+                      [
+                        "Path",
+                        {
+                          "applyMatrix": true,
+                          "data": {
+                            "countable": true
+                          },
+                          "segments": [
+                            [
+                              [
+                                7,
+                                583
+                              ],
+                              [
+                                0,
+                                166.3025
+                              ],
+                              [
+                                0,
+                                -166.3025
+                              ]
+                            ],
+                            [
+                              [
+                                308,
+                                282
+                              ],
+                              [
+                                -166.3025,
+                                0
+                              ],
+                              [
+                                166.3025,
+                                0
+                              ]
+                            ],
+                            [
+                              [
+                                609,
+                                583
+                              ],
+                              [
+                                0,
+                                -166.3025
+                              ],
+                              [
+                                0,
+                                166.3025
+                              ]
+                            ],
+                            [
+                              [
+                                308,
+                                884
+                              ],
+                              [
+                                166.3025,
+                                0
+                              ],
+                              [
+                                -166.3025,
+                                0
+                              ]
+                            ]
+                          ],
+                          "closed": true,
+                          "fillColor": [
+                            0,
+                            0,
+                            0,
+                            0.001
+                          ],
+                          "strokeColor": [
+                            "hsl",
+                            60,
+                            1,
+                            0.876,
+                            1
+                          ],
+                          "strokeWidth": 26.83796,
+                          "dashArray": []
+                        }
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "view": "AA0_55797238_R_MLO_1",
+      "data": {
+        "images": [
+          {
+            "id": 3,
+            "width": 2560,
+            "height": 3328,
+            "file_name": "AA0_55797238_R_MLO_1"
+          }
+        ],
+        "annotations": [
+          {
+            "id": 230,
+            "image_id": 3,
+            "category_ids": [
+              2,
+              21,
+              29
+            ],
+            "circle": [
+              1676,
+              1758,
+              261
+            ],
+            "bbox": [
+              1414,
+              1496,
+              524,
+              524
+            ],
+            "malignant": 0.5
+          }
+        ],
+        "categories": [
+          {
+            "supercategory": "abnormal",
+            "id": 2,
+            "name": "masses"
+          },
+          {
+            "supercategory": "masses",
+            "id": 21,
+            "name": "irregular"
+          },
+          {
+            "supercategory": "masses",
+            "id": 29,
+            "name": "low"
+          }
+        ],
+        "annotation": [
+          [
+            "Layer",
+            {
+              "name": "masses",
+              "applyMatrix": true,
+              "children": [
+                [
+                  "Group",
+                  {
+                    "applyMatrix": true,
+                    "children": [
+                      [
+                        "Path",
+                        {
+                          "applyMatrix": true,
+                          "data": {
+                            "countable": true
+                          },
+                          "segments": [
+                            [
+                              [
+                                1415,
+                                1758
+                              ],
+                              [
+                                0,
+                                144.2025
+                              ],
+                              [
+                                0,
+                                -144.2025
+                              ]
+                            ],
+                            [
+                              [
+                                1676,
+                                1497
+                              ],
+                              [
+                                -144.2025,
+                                0
+                              ],
+                              [
+                                144.2025,
+                                0
+                              ]
+                            ],
+                            [
+                              [
+                                1937,
+                                1758
+                              ],
+                              [
+                                0,
+                                -144.2025
+                              ],
+                              [
+                                0,
+                                144.2025
+                              ]
+                            ],
+                            [
+                              [
+                                1676,
+                                2019
+                              ],
+                              [
+                                144.2025,
+                                0
+                              ],
+                              [
+                                -144.2025,
+                                0
+                              ]
+                            ]
+                          ],
+                          "closed": true,
+                          "fillColor": [
+                            0,
+                            0,
+                            0,
+                            0.001
+                          ],
+                          "strokeColor": [
+                            "hsl",
+                            180,
+                            1,
+                            0.876,
+                            1
+                          ],
+                          "strokeWidth": 26.83796,
+                          "dashArray": []
+                        }
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            }
+          ],
+          [
+            "Layer",
+            {
+              "name": "calcifications",
+              "applyMatrix": true
+            }
+          ],
+          [
+            "Layer",
+            {
+              "name": "architectural distortion",
+              "applyMatrix": true
+            }
+          ],
+          [
+            "Layer",
+            {
+              "name": "asymmetries",
+              "applyMatrix": true
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "view": "AA0_55797238_L_MLO_1",
+      "data": {
+        "images": [
+          {
+            "id": 4,
+            "width": 2560,
+            "height": 3328,
+            "file_name": "AA0_55797238_L_MLO_1"
+          }
+        ],
+        "annotations": [
+          {
+            "id": 176,
+            "image_id": 4,
+            "category_ids": [
+              5,
+              52
+            ],
+            "circle": [
+              671,
+              1604,
+              340
+            ],
+            "bbox": [
+              331,
+              1263,
+              682,
+              682
+            ],
+            "malignant": 0.5
+          },
+          {
+            "id": 194,
+            "image_id": 4,
+            "category_ids": [
+              2,
+              21,
+              29
+            ],
+            "circle": [
+              515,
+              662,
+              108
+            ],
+            "bbox": [
+              406,
+              553,
+              218,
+              218
+            ],
+            "malignant": 1
+          },
+          {
+            "id": 208,
+            "image_id": 4,
+            "category_ids": [
+              2,
+              29,
+              21
+            ],
+            "circle": [
+              516,
+              2218,
+              93
+            ],
+            "bbox": [
+              423,
+              2125,
+              187,
+              187
+            ],
+            "malignant": 0.5
+          }
+        ],
+        "categories": [
+          {
+            "supercategory": "abnormal",
+            "id": 5,
+            "name": "asymmetries"
+          },
+          {
+            "supercategory": "asymmetries",
+            "id": 52,
+            "name": "focal"
+          },
+          {
+            "supercategory": "abnormal",
+            "id": 2,
+            "name": "masses"
+          },
+          {
+            "supercategory": "masses",
+            "id": 21,
+            "name": "irregular"
+          },
+          {
+            "supercategory": "masses",
+            "id": 29,
+            "name": "low"
+          }
+        ],
+        "annotation": [
+          [
+            "Layer",
+            {
+              "name": "masses",
+              "applyMatrix": true,
+              "children": [
+                [
+                  "Group",
+                  {
+                    "applyMatrix": true,
+                    "children": [
+                      [
+                        "Path",
+                        {
+                          "applyMatrix": true,
+                          "data": {
+                            "countable": true
+                          },
+                          "segments": [
+                            [
+                              [
+                                407,
+                                662
+                              ],
+                              [
+                                0,
+                                59.67
+                              ],
+                              [
+                                0,
+                                -59.67
+                              ]
+                            ],
+                            [
+                              [
+                                515,
+                                554
+                              ],
+                              [
+                                -59.67,
+                                0
+                              ],
+                              [
+                                59.67,
+                                0
+                              ]
+                            ],
+                            [
+                              [
+                                623,
+                                662
+                              ],
+                              [
+                                0,
+                                -59.67
+                              ],
+                              [
+                                0,
+                                59.67
+                              ]
+                            ],
+                            [
+                              [
+                                515,
+                                770
+                              ],
+                              [
+                                59.67,
+                                0
+                              ],
+                              [
+                                -59.67,
+                                0
+                              ]
+                            ]
+                          ],
+                          "closed": true,
+                          "fillColor": [
+                            0,
+                            0,
+                            0,
+                            0.001
+                          ],
+                          "strokeColor": [
+                            "hsl",
+                            180,
+                            1,
+                            0.876,
+                            1
+                          ],
+                          "strokeWidth": 26.83796,
+                          "dashArray": []
+                        }
+                      ]
+                    ]
+                  }
+                ],
+                [
+                  "Group",
+                  {
+                    "applyMatrix": true,
+                    "children": [
+                      [
+                        "Path",
+                        {
+                          "applyMatrix": true,
+                          "data": {
+                            "countable": true
+                          },
+                          "segments": [
+                            [
+                              [
+                                423,
+                                2218
+                              ],
+                              [
+                                0,
+                                51.3825
+                              ],
+                              [
+                                0,
+                                -51.3825
+                              ]
+                            ],
+                            [
+                              [
+                                516,
+                                2125
+                              ],
+                              [
+                                -51.3825,
+                                0
+                              ],
+                              [
+                                51.3825,
+                                0
+                              ]
+                            ],
+                            [
+                              [
+                                609,
+                                2218
+                              ],
+                              [
+                                0,
+                                -51.3825
+                              ],
+                              [
+                                0,
+                                51.3825
+                              ]
+                            ],
+                            [
+                              [
+                                516,
+                                2311
+                              ],
+                              [
+                                51.3825,
+                                0
+                              ],
+                              [
+                                -51.3825,
+                                0
+                              ]
+                            ]
+                          ],
+                          "closed": true,
+                          "fillColor": [
+                            0,
+                            0,
+                            0,
+                            0.001
+                          ],
+                          "strokeColor": [
+                            "hsl",
+                            180,
+                            1,
+                            0.876,
+                            1
+                          ],
+                          "strokeWidth": 26.83796,
+                          "dashArray": []
+                        }
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            }
+          ],
+          [
+            "Layer",
+            {
+              "name": "calcifications",
+              "applyMatrix": true
+            }
+          ],
+          [
+            "Layer",
+            {
+              "name": "architectural distortion",
+              "applyMatrix": true
+            }
+          ],
+          [
+            "Layer",
+            {
+              "name": "asymmetries",
+              "applyMatrix": true,
+              "children": [
+                [
+                  "Group",
+                  {
+                    "applyMatrix": true,
+                    "children": [
+                      [
+                        "Path",
+                        {
+                          "applyMatrix": true,
+                          "data": {
+                            "countable": true
+                          },
+                          "segments": [
+                            [
+                              [
+                                331,
+                                1604
+                              ],
+                              [
+                                0,
+                                187.85
+                              ],
+                              [
+                                0,
+                                -187.85
+                              ]
+                            ],
+                            [
+                              [
+                                671,
+                                1264
+                              ],
+                              [
+                                -187.85,
+                                0
+                              ],
+                              [
+                                187.85,
+                                0
+                              ]
+                            ],
+                            [
+                              [
+                                1011,
+                                1604
+                              ],
+                              [
+                                0,
+                                -187.85
+                              ],
+                              [
+                                0,
+                                187.85
+                              ]
+                            ],
+                            [
+                              [
+                                671,
+                                1944
+                              ],
+                              [
+                                187.85,
+                                0
+                              ],
+                              [
+                                -187.85,
+                                0
+                              ]
+                            ]
+                          ],
+                          "closed": true,
+                          "fillColor": [
+                            0,
+                            0,
+                            0,
+                            0.001
+                          ],
+                          "strokeColor": [
+                            "hsl",
+                            60,
+                            1,
+                            0.876,
+                            1
+                          ],
+                          "strokeWidth": 26.83796,
+                          "dashArray": []
+                        }
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            }
+          ]
+        ]
+      }
+    }
+  ],
+  "ROIs": [
+    {
+      "id": 42,
+      "properties": [
+        "47"
+      ],
+      "layer": "calcifications",
+      "X": 1187.5,
+      "Y": 1991,
+      "segments": [
+        [
+          636,
+          1800
+        ],
+        [
+          643,
+          1890
+        ],
+        [
+          657,
+          1946
+        ],
+        [
+          664,
+          2009
+        ],
+        [
+          678,
+          2065
+        ],
+        [
+          692,
+          2127
+        ],
+        [
+          713,
+          2190
+        ],
+        [
+          748,
+          2253
+        ],
+        [
+          790,
+          2316
+        ],
+        [
+          853,
+          2386
+        ],
+        [
+          929,
+          2448
+        ],
+        [
+          971,
+          2476
+        ],
+        [
+          1006,
+          2497
+        ],
+        [
+          1076,
+          2504
+        ],
+        [
+          1118,
+          2504
+        ],
+        [
+          1195,
+          2497
+        ],
+        [
+          1306,
+          2455
+        ],
+        [
+          1432,
+          2407
+        ],
+        [
+          1557,
+          2344
+        ],
+        [
+          1669,
+          2295
+        ],
+        [
+          1725,
+          2260
+        ],
+        [
+          1739,
+          2218
+        ],
+        [
+          1739,
+          2155
+        ],
+        [
+          1739,
+          2072
+        ],
+        [
+          1669,
+          1869
+        ],
+        [
+          1599,
+          1744
+        ],
+        [
+          1516,
+          1632
+        ],
+        [
+          1418,
+          1562
+        ],
+        [
+          1348,
+          1520
+        ],
+        [
+          1264,
+          1500
+        ],
+        [
+          1188,
+          1486
+        ],
+        [
+          1090,
+          1479
+        ],
+        [
+          978,
+          1479
+        ],
+        [
+          888,
+          1479
+        ],
+        [
+          818,
+          1479
+        ]
+      ],
+      "view": "AA0_55797238_L_CC_1",
+      "bbox": {
+        "topLeft": [
+          636,
+          1479
+        ],
+        "topRight": [
+          1739,
+          1479
+        ],
+        "bottomRight": [
+          1739,
+          2505
+        ],
+        "bottomLeft": [
+          636,
+          2505
+        ]
+      },
+      "malignant": 0.1
+    },
+    {
+      "id": 127,
+      "properties": [
+        "51"
+      ],
+      "layer": "asymmetries",
+      "X": 308,
+      "Y": 583,
+      "radius": 301,
+      "view": "AA0_55797238_L_CC_1",
+      "bbox": {
+        "topLeft": [
+          6,
+          282
+        ],
+        "topRight": [
+          610,
+          282
+        ],
+        "bottomRight": [
+          610,
+          886
+        ],
+        "bottomLeft": [
+          6,
+          886
+        ]
+      },
+      "malignant": 1
+    },
+    {
+      "id": 153,
+      "properties": [],
+      "layer": "architectural distortion",
+      "X": 873,
+      "Y": 310,
+      "radius": 180,
+      "view": "AA0_55797238_L_CC_1",
+      "bbox": {
+        "topLeft": [
+          693,
+          130
+        ],
+        "topRight": [
+          1054,
+          130
+        ],
+        "bottomRight": [
+          1054,
+          491
+        ],
+        "bottomLeft": [
+          693,
+          491
+        ]
+      },
+      "malignant": 0.1
+    },
+    {
+      "id": 176,
+      "properties": [
+        "52"
+      ],
+      "layer": "asymmetries",
+      "X": 671,
+      "Y": 1604,
+      "radius": 340,
+      "view": "AA0_55797238_L_MLO_1",
+      "bbox": {
+        "topLeft": [
+          331,
+          1263
+        ],
+        "topRight": [
+          1013,
+          1263
+        ],
+        "bottomRight": [
+          1013,
+          1945
+        ],
+        "bottomLeft": [
+          331,
+          1945
+        ]
+      },
+      "malignant": 0.5
+    },
+    {
+      "id": 194,
+      "properties": [
+        "21",
+        "29"
+      ],
+      "layer": "masses",
+      "X": 515,
+      "Y": 662,
+      "radius": 108,
+      "view": "AA0_55797238_L_MLO_1",
+      "bbox": {
+        "topLeft": [
+          406,
+          553
+        ],
+        "topRight": [
+          624,
+          553
+        ],
+        "bottomRight": [
+          624,
+          771
+        ],
+        "bottomLeft": [
+          406,
+          771
+        ]
+      },
+      "malignant": 1
+    },
+    {
+      "id": 208,
+      "properties": [
+        "29",
+        "21"
+      ],
+      "layer": "masses",
+      "X": 516,
+      "Y": 2218,
+      "radius": 93,
+      "view": "AA0_55797238_L_MLO_1",
+      "bbox": {
+        "topLeft": [
+          423,
+          2125
+        ],
+        "topRight": [
+          610,
+          2125
+        ],
+        "bottomRight": [
+          610,
+          2312
+        ],
+        "bottomLeft": [
+          423,
+          2312
+        ]
+      },
+      "malignant": 0.5
+    },
+    {
+      "id": 36,
+      "properties": [
+        "31",
+        "33",
+        "47"
+      ],
+      "layer": "calcifications",
+      "X": 1830,
+      "Y": 1660,
+      "radius": 238,
+      "view": "AA0_55797238_R_CC_1",
+      "bbox": {
+        "topLeft": [
+          1591,
+          1421
+        ],
+        "topRight": [
+          2069,
+          1421
+        ],
+        "bottomRight": [
+          2069,
+          1899
+        ],
+        "bottomLeft": [
+          1591,
+          1899
+        ]
+      },
+      "malignant": 0.1
+    },
+    {
+      "id": 230,
+      "properties": [
+        "21",
+        "29"
+      ],
+      "layer": "masses",
+      "X": 1676,
+      "Y": 1758,
+      "radius": 261,
+      "view": "AA0_55797238_R_MLO_1",
+      "bbox": {
+        "topLeft": [
+          1414,
+          1496
+        ],
+        "topRight": [
+          1938,
+          1496
+        ],
+        "bottomRight": [
+          1938,
+          2020
+        ],
+        "bottomLeft": [
+          1414,
+          2020
+        ]
+      },
+      "malignant": 0.5
+    }
+  ]
+}

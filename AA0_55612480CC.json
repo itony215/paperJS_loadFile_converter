@@ -1,0 +1,455 @@
+{
+  "user_name": "test",
+  "file_name": "AA0_55612480",
+  "study": {
+    "patient_id": "a1005",
+    "patient_age": "57",
+    "study_id": "40163",
+    "exam_date": "20120103",
+    "accession_number": "55612480",
+    "image_pixel_spacing": 0.07,
+    "assessment": "3",
+    "composition": "C",
+    "comment": "",
+    "rcc": {
+      "anno_file_name": "AA0_55612480_R_CC_1.json",
+      "major_risk": "masses(round,low)",
+      "malignant": 0,
+      "abn_num": 1
+    }
+  },
+  "annotation": [
+    {
+      "view": "AA0_55612480_R_CC_1",
+      "data": {
+        "images": [
+          {
+            "id": 1,
+            "width": 2560,
+            "height": 3328,
+            "file_name": "AA0_55612480_R_CC_1"
+          }
+        ],
+        "annotations": [
+          {
+            "id": 235,
+            "image_id": 1,
+            "category_ids": [
+              2,
+              20,
+              29
+            ],
+            "circle": [
+              1347,
+              1577,
+              453
+            ],
+            "bbox": [
+              893,
+              1123,
+              908,
+              908
+            ],
+            "malignant": 0
+          }
+        ],
+        "categories": [
+          {
+            "supercategory": "abnormal",
+            "id": 2,
+            "name": "masses"
+          },
+          {
+            "supercategory": "masses",
+            "id": 20,
+            "name": "round"
+          },
+          {
+            "supercategory": "masses",
+            "id": 29,
+            "name": "low"
+          }
+        ],
+        "annotation": [
+          [
+            "Layer",
+            {
+              "name": "masses",
+              "applyMatrix": true,
+              "children": [
+                [
+                  "Group",
+                  {
+                    "applyMatrix": true
+                  }
+                ],
+                [
+                  "Group",
+                  {
+                    "applyMatrix": true
+                  }
+                ],
+                [
+                  "Group",
+                  {
+                    "applyMatrix": true
+                  }
+                ],
+                [
+                  "Group",
+                  {
+                    "applyMatrix": true
+                  }
+                ],
+                [
+                  "Group",
+                  {
+                    "applyMatrix": true,
+                    "children": [
+                      [
+                        "Path",
+                        {
+                          "applyMatrix": true,
+                          "data": {
+                            "countable": true
+                          },
+                          "segments": [
+                            [
+                              [
+                                893.89951,
+                                1577.03602
+                              ],
+                              [
+                                0,
+                                250.56232
+                              ],
+                              [
+                                0,
+                                -250.56232
+                              ]
+                            ],
+                            [
+                              [
+                                1347.58273,
+                                1123.3528
+                              ],
+                              [
+                                -250.56232,
+                                0
+                              ],
+                              [
+                                250.56232,
+                                0
+                              ]
+                            ],
+                            [
+                              [
+                                1801.26595,
+                                1577.03602
+                              ],
+                              [
+                                0,
+                                -250.56232
+                              ],
+                              [
+                                0,
+                                250.56232
+                              ]
+                            ],
+                            [
+                              [
+                                1347.58273,
+                                2030.71924
+                              ],
+                              [
+                                250.56232,
+                                0
+                              ],
+                              [
+                                -250.56232,
+                                0
+                              ]
+                            ]
+                          ],
+                          "closed": true,
+                          "fillColor": [
+                            0,
+                            0,
+                            0,
+                            0.001
+                          ],
+                          "strokeColor": [
+                            "hsl",
+                            180,
+                            1,
+                            0.876,
+                            1
+                          ],
+                          "strokeWidth": 26.83796,
+                          "dashArray": [
+                            10.48358,
+                            52.41789
+                          ]
+                        }
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            }
+          ],
+          [
+            "Layer",
+            {
+              "name": "calcifications",
+              "applyMatrix": true,
+              "children": [
+                [
+                  "Group",
+                  {
+                    "applyMatrix": true
+                  }
+                ],
+                [
+                  "Group",
+                  {
+                    "applyMatrix": true
+                  }
+                ],
+                [
+                  "Group",
+                  {
+                    "applyMatrix": true
+                  }
+                ],
+                [
+                  "Group",
+                  {
+                    "applyMatrix": true
+                  }
+                ],
+                [
+                  "Group",
+                  {
+                    "applyMatrix": true
+                  }
+                ],
+                [
+                  "Group",
+                  {
+                    "applyMatrix": true
+                  }
+                ],
+                [
+                  "Group",
+                  {
+                    "applyMatrix": true
+                  }
+                ]
+              ]
+            }
+          ],
+          [
+            "Layer",
+            {
+              "name": "asymmetries",
+              "applyMatrix": true,
+              "children": [
+                [
+                  "Group",
+                  {
+                    "applyMatrix": true
+                  }
+                ]
+              ]
+            }
+          ],
+          [
+            "Layer",
+            {
+              "name": "architectural distortion",
+              "applyMatrix": true,
+              "children": [
+                [
+                  "Group",
+                  {
+                    "applyMatrix": true
+                  }
+                ],
+                [
+                  "Group",
+                  {
+                    "applyMatrix": true
+                  }
+                ],
+                [
+                  "Group",
+                  {
+                    "applyMatrix": true
+                  }
+                ],
+                [
+                  "Group",
+                  {
+                    "applyMatrix": true
+                  }
+                ]
+              ]
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "view": "AA0_55612480_L_CC_1",
+      "data": {
+        "images": [
+          {
+            "id": 2,
+            "width": 2560,
+            "height": 3328,
+            "file_name": "AA0_55612480_L_CC_1"
+          }
+        ],
+        "annotations": [],
+        "categories": [],
+        "annotation": [
+          [
+            "Layer",
+            {
+              "name": "masses",
+              "applyMatrix": true
+            }
+          ],
+          [
+            "Layer",
+            {
+              "name": "calcifications",
+              "applyMatrix": true
+            }
+          ],
+          [
+            "Layer",
+            {
+              "name": "asymmetries",
+              "applyMatrix": true,
+              "children": [
+                [
+                  "Group",
+                  {
+                    "applyMatrix": true
+                  }
+                ],
+                [
+                  "Group",
+                  {
+                    "applyMatrix": true
+                  }
+                ]
+              ]
+            }
+          ],
+          [
+            "Layer",
+            {
+              "name": "architectural distortion",
+              "applyMatrix": true,
+              "children": [
+                [
+                  "Group",
+                  {
+                    "applyMatrix": true
+                  }
+                ],
+                [
+                  "Group",
+                  {
+                    "applyMatrix": true
+                  }
+                ]
+              ]
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "view": "AA0_55612480_R_MLO_1",
+      "data": {
+        "images": [
+          {
+            "id": 3,
+            "width": 2560,
+            "height": 3328,
+            "file_name": "AA0_55612480_R_MLO_1"
+          }
+        ],
+        "annotations": [],
+        "categories": [],
+        "annotation": [
+          [
+            "Layer",
+            {
+              "name": "masses",
+              "applyMatrix": true
+            }
+          ],
+          [
+            "Layer",
+            {
+              "name": "calcifications",
+              "applyMatrix": true
+            }
+          ],
+          [
+            "Layer",
+            {
+              "name": "asymmetries",
+              "applyMatrix": true
+            }
+          ],
+          [
+            "Layer",
+            {
+              "name": "architectural distortion",
+              "applyMatrix": true
+            }
+          ]
+        ]
+      }
+    }
+  ],
+  "ROIs": [
+    {
+      "id": 235,
+      "properties": [
+        "20",
+        "29"
+      ],
+      "layer": "masses",
+      "X": 1347.5827291521089,
+      "Y": 1577.0360187226704,
+      "radius": 453.68322039220743,
+      "view": "AA0_55612480_R_CC_1",
+      "bbox": {
+        "topLeft": [
+          893.8995087599014,
+          1123.352798330463
+        ],
+        "topRight": [
+          1801.2659495443163,
+          1123.352798330463
+        ],
+        "bottomRight": [
+          1801.2659495443163,
+          2030.7192391148778
+        ],
+        "bottomLeft": [
+          893.8995087599014,
+          2030.7192391148778
+        ]
+      },
+      "malignant": 0
+    }
+  ]
+}
