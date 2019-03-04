@@ -2,11 +2,6 @@
 
 `npm install`
 
-## Install package's dependcies
+## Run
 
-`yarn bootstrap`
-`cd server & yarn`
-
-## Run MongoDB
-
-`docker run -p 27017:27017 mongo`
+`node checkFile.js`
